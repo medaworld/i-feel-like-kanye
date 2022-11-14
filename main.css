@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: var(--primary);
+  font-family: Helvetica;
+  font-size: 2em;
+  transition: 00.3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Helvetica;
+  font-weight: 400;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border: 2px solid var(--primary);
+  cursor: pointer;
+  background-color: var(--accent);
+  color: var(--primary);
+  padding: 5px;
+  font-family: 'Inconsolata', sans-serif;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: var(--secondary);
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+#window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+#kanye {
+  display: flex;
+  height: auto;
+  width: auto;
+  align-self: flex-end;
+}
+
+.pablo {
+  --background: #f58b56;
+  --primary: #23140d;
+  --secondary: #49131a;
+  --accent: #7aedcc;
+}
+
+.graduation {
+  --background: #6c3288;
+  --primary: #fd028c;
+  --secondary: #c87367;
+  --accent: #fef7e5;
+}
+
+.collegedropout {
+  --background: #44161b;
+  --primary: #feea82;
+  --secondary: #8084b4;
+  --accent: #933913;
+}
+
+.lateregistration {
+  --background: #1d0c05;
+  --primary: #baad70;
+  --secondary: #a7b4c4;
+  --accent: #8e5c3a;
+}
+
+.heartbreak {
+  --background: #cde1e0;
+  --primary: #fa2001;
+  --secondary: #e3eeef;
+  --accent: #afe7b9;
+}
+
+.mbdtf {
+  --background: #ea213e;
+  --primary: #017fd3;
+  --secondary: #7c4726;
+  --accent: #fe8d64;
+}
+
+.yeezus {
+  --background: #f9f9fa;
+  --primary: #05dbc0;
+  --secondary: #3d2514;
+  --accent: #ff1c00;
+}
